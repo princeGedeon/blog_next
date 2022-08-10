@@ -4,9 +4,9 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="container px-10 pt-5">
-      <h1 className="text-3xl">Bienvenue sur <span className="font-extrabold text-blue-900">Prince.io</span></h1>
+      <h1 className="text-3xl font-normal sm:text-4xl md:text-5xl xl:text-6xl">Bienvenue sur <span className="font-extrabold text-blue-900">Prince.io</span></h1>
       <span>Le blog des princes</span>
-      <div className="mt-10 mx-auto flex flex-col  gap-4  sm:flex-row">
+      <div className="mt-10 mx-auto flex flex-col  gap-4  md:flex-row">
         <div className="w-full min-h-fit max-h-full border border-gray-500 px-5 py-5  rounded-md">
           <h3 className="font-bold text-xl">Lisez les articles</h3>
           <h6 className="text-gray-500 text-sm mb-1">Maximisez votre culture</h6>
