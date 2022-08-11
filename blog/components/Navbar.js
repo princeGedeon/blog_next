@@ -18,7 +18,7 @@ const Navbar = () => {
                 </li>
 
                 <li>
-                    <Link href="/user">
+                    <Link href="/utilisateur">
                         <a className='text-md pb-1 hover:text-slate-50 hover:border-b-2  '>user</a>
                     </Link>
                 </li>
