@@ -1,9 +1,19 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import {v4 as uuidv4} from "uuid";
 const Index = (props) => {
     console.log(props.articles)
     return (
+        <>
+               <Head>
+       <meta charset="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos Blogs | By PrinceG</title>
+
+    </Head>
+        
         <div className='container mx-auto mt-8'>
             <h1 className="text-center text-bold text-3xl font-bold">Bienvenue sur le blog</h1>
             <p className="text-center">Voici les articles</p>
@@ -24,6 +34,7 @@ const Index = (props) => {
                 
                 </div>     
         </div>
+        </>
     );
 }
 
